@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/kurly_cra_web/static/js/main.629806d0.js",
+    "main.js": "/kurly_cra_web/static/js/main.3b2f3a71.js",
     "index.html": "/kurly_cra_web/index.html",
-    "main.629806d0.js.map": "/kurly_cra_web/static/js/main.629806d0.js.map"
+    "main.3b2f3a71.js.map": "/kurly_cra_web/static/js/main.3b2f3a71.js.map"
   },
   "entrypoints": [
-    "static/js/main.629806d0.js"
+    "static/js/main.3b2f3a71.js"
   ]
 }
