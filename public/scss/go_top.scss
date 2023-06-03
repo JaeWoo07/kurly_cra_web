@@ -1,0 +1,14 @@
+/* goTop 버튼 go_top.scss */
+/* 스크롤 탑값이 섹션4의 탑값에 도달하면 부드럽게 보인다. */
+/* 스크롤 탑값이 섹션4의 탑값의 미만이면 부드럽게 숨긴다. */
+#wrap {
+    #goTop {
+        position: fixed;z-index: 4;right: 35px;bottom: 20px;width: 50px;height: 50px;display: none;
+        a {
+            display: block;width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

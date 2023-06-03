@@ -1,0 +1,185 @@
+.sign-in-id-pw-search {
+  width: 100%;
+  letter-spacing: -1px;
+}
+.sign-in-id-pw-search #signInIdPwSearch {
+  width: 100%;
+  padding: 50px 0 80px 0;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap {
+  width: 100%;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .title {
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .title h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content .tab-menu-box {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content .tab-menu-box button {
+  width: 50%;
+  height: 48px;
+  background: #fff;
+  border: 0;
+  font-weight: 600;
+  color: #666;
+  font-size: 16px;
+  cursor: pointer;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content .tab-menu-box button.on {
+  color: #5f0080;
+  border-bottom: 2px solid #5f0080;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form {
+  width: 100%;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul {
+  width: 100%;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li {
+  width: 100%;
+  padding: 30px 0 0 0;
+  position: relative;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li label {
+  font-size: 14px;
+  font-weight: 600;
+  background: none;
+  border: 0;
+  display: block;
+  padding: 0 0 15px 0;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li input {
+  font-size: 16px;
+  width: 100%;
+  height: 46px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 0 15px;
+  outline-offset: -1px;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li input:focus {
+  outline: 1px solid #777;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li input.on {
+  background-color: #f7f7f7;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li input.hpReBtnInput, .sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li input.emailReBtnInput {
+  width: 72%;
+  margin-right: 14px;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li .count-timer {
+  position: absolute;
+  z-index: 2;
+  font-size: 14px;
+  color: rgb(240, 63, 64);
+  font-weight: 600;
+  letter-spacing: -0.8px;
+  top: 71.5px;
+  right: 107px;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li .count-timer i {
+  display: inline-block;
+  height: 10px;
+  margin: -5px 2px 0 2px;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li p.isError {
+  font-size: 13px;
+  color: rgb(240, 63, 64);
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  padding: 8px 0 0 0;
+  margin-bottom: -11px;
+  display: none;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li p.isError.on {
+  display: block;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li button {
+  font-size: 16px;
+  border-radius: 3px;
+  border: 0;
+  background: #ddd;
+  color: #fff;
+  font-weight: 600;
+  width: 100%;
+  height: 56px;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li button.on {
+  color: #fff;
+  background: #5f0080;
+  cursor: pointer;
+}
+.sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li .hpReBtn, .sign-in-id-pw-search #signInIdPwSearch .container .gap .content form ul li .emailReBtn {
+  background: #fff;
+  color: #000;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  height: 46px;
+  width: 25%;
+  position: absolute;
+  top: 59px;
+  right: 0;
+  cursor: pointer;
+}
+
+#modal {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  white-space: pre-wrap;
+  line-height: 150%;
+}
+#modal .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#modal .wrap .container {
+  margin: auto;
+  width: 360px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#modal .wrap .container .message-box {
+  padding: 40px 30px;
+  border-bottom: 1px solid rgb(247, 247, 247);
+}
+#modal .wrap .container .message-box h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+#modal .wrap .container .button-box {
+  width: 100%;
+}
+#modal .wrap .container .button-box button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(95, 0, 128);
+  letter-spacing: -0.5px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,29 @@
+/* 퀵메뉴 quick_menu.scss */
+/* 스크롤 탑값이 섹션2의 탑값에 도달하면 고정으로 변경된다. */
+/* 스크롤 탑값이 섹션2의 탑값의 미만이면 절대값으로 변경된다. */
+#wrap {
+    #quickMenu {
+        position: absolute;z-index: 4;right: 20px;top: 742px;width: 80px;
+        &.on {  // &: 부모요소
+            position: fixed;top: 50%;margin-top: -100px;
+        }
+        ul {
+            width: 100%;
+            li {
+                width: 100%;
+                a {
+                    width: 100%;display: block;text-align: center;padding: 8px 0;border: 1px solid #ccc;border-bottom: 0;font-size: 12px;letter-spacing: -0.7px;font-weight:500;
+                    img {
+                        width: 100%;
+                    }
+                }
+                &:last-child a {
+                    border-bottom: 1px solid #ccc;
+                }
+                &:nth-child(1) a {
+                    padding: 0;border: 0;margin: 0 0 8px 0;
+                }
+            }
+        }
+    }
+}

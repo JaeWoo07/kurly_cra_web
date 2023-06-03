@@ -1,0 +1,205 @@
+.sign-in-id-pw-search {
+    width: 100%;
+    letter-spacing: -1px;  
+    #signInIdPwSearch {
+        width: 100%;
+        padding: 50px 0 80px 0;
+        .container {
+            width: 100%;
+            max-width: 340px;
+            margin: 0 auto;
+            .gap {
+                width: 100%;
+                .title {
+                    text-align: center;
+                    padding: 0 0 30px 0;
+                    h2 {
+                        font-size: 28px;
+                        font-weight: 600;
+                        color: #333;
+                    }
+                }
+                .content {
+                    .tab-menu-box {
+                        width: 100%;
+                        border-bottom: 1px solid #ddd;
+                        button {
+                            width: 50%;
+                            height: 48px;
+                            background: #fff;
+                            border: 0;
+                            font-weight: 600;
+                            color: #666;
+                            font-size: 16px;
+                            cursor: pointer;
+                            &.on {
+                                color: #5f0080;
+                                border-bottom: 2px solid #5f0080;
+                            }
+                        }
+                    }
+                    form {
+                        width: 100%;
+                        ul {
+                            width: 100%;
+                            li {
+                                width: 100%;
+                                padding: 30px 0 0 0;
+                                position: relative;
+                                label {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    background: none;
+                                    border: 0;
+                                    display: block;
+                                    padding: 0 0 15px 0;
+                                }
+                                input {
+                                    font-size: 16px;
+                                    width: 100%;
+                                    height: 46px;
+                                    background: #fff;
+                                    border: 1px solid #ccc;
+                                    border-radius: 3px;
+                                    padding: 0 15px;
+                                    outline-offset: -1px;
+                                    &:focus {
+                                        outline: 1px solid #777;
+                                    }
+                                    &.on {
+                                        background-color: #f7f7f7;
+                                    }
+                                    &.hpReBtnInput, &.emailReBtnInput {
+                                        width: 72%;
+                                        margin-right: 14px;
+                                    }
+                                }
+                                .count-timer {
+                                    position: absolute;
+                                    z-index: 2;
+                                    font-size: 14px;
+                                    color: rgb(240, 63, 64);
+                                    font-weight: 600;
+                                    letter-spacing: -0.8px;
+                                    top: 71.5px;
+                                    right: 107px;
+                                    i {
+                                        display: inline-block;
+                                        height: 10px;
+                                        margin: -5px 2px 0 2px;
+                                    }
+                                }
+                                p.isError {
+                                    font-size: 13px;
+                                    color: rgb(240, 63, 64);
+                                    font-weight: 600;
+                                    letter-spacing: -0.3px;
+                                    padding: 8px 0 0 0;
+                                    margin-bottom: -11px;
+                                    display: none;
+                                    &.on {
+                                        display: block;
+                                    }
+                                }
+                                button {
+                                    font-size: 16px;
+                                    border-radius: 3px;
+                                    border: 0;
+                                    background: #ddd;
+                                    color: #fff;
+                                    font-weight: 600;
+                                    width: 100%;
+                                    height: 56px;
+                                    &.on {
+                                        color: #fff;
+                                        background: #5f0080;
+                                        cursor: pointer;
+                                    }
+                                }
+                                .hpReBtn, .emailReBtn {
+                                    background: #fff;
+                                    color: #000;
+                                    border: 1px solid #ddd;
+                                    border-radius: 3px;
+                                    height: 46px;
+                                    width: 25%;
+                                    position: absolute;
+                                    top: 59px;
+                                    right: 0;
+                                    cursor: pointer;
+                                }
+                                // a {
+                                //     display: flex;
+                                //     align-items: center;
+                                //     justify-content: center;
+                                //     font-size: 16px;
+                                //     border-radius: 3px;
+                                //     border: 0;
+                                //     background: #ddd;
+                                //     color: #fff;
+                                //     font-weight: 600;
+                                //     width: 100%;
+                                //     height: 56px;
+                                //     &.on {
+                                //         color: #fff;
+                                //         background: #5f0080;
+                                //         cursor: pointer;
+                                //     }
+                                // }
+                            }
+                        }
+                    }                  
+                }
+            }
+        }
+    }
+}
+#modal {
+    // display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    white-space: pre-wrap; // \n 개행문자 텍스트 인식
+    line-height: 150%;
+    .wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;          
+        .container {
+            margin: auto;
+            width: 360px;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            .message-box {
+                padding: 40px 30px;
+                border-bottom: 1px solid rgb(247, 247, 247);
+                h2 {
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #333;
+                    letter-spacing: -0.5px;
+                }
+            }
+            .button-box {
+                width: 100%;
+                button {
+                    width: 100%;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgb(95, 0, 128);
+                    letter-spacing: -0.5px;
+                    background: #fff;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

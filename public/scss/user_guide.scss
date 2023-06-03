@@ -1,0 +1,269 @@
+#sub {
+    width: 100%;
+    #UserGuide {
+        width: 100%;
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 50px 0;
+            letter-spacing: -1px;            
+            .gap {
+                width: 100%;
+                .title {
+                    width: 100%;
+                    padding-bottom: 50px;
+                    h2 {
+                        text-align: center;
+                        letter-spacing: -1.3px;
+                        font-weight: 500;
+                        font-size: 28px                    
+                    }
+                }
+                .content {
+                    width: 100%;
+                    background: #f7f7f7;
+                    .box {
+                        width: 100%;
+                        max-width: 960px;
+                        margin: 0 auto;
+                        padding: 100px 0 0 0;                       
+                        .box-row1 {
+                            display: flex;
+                            justify-content: space-between;                         
+                            .box-wrapper1 {
+                                width: 470px;
+                                height: 400px;
+                                .box1 {
+                                    background-color: #fff;
+                                    width: 470px;
+                                    height: 380px;                               
+                                    .box-content-wrapper1 {
+                                        width: 410px;
+                                        height: 250px;
+                                        padding: 60px;
+                                        .box-title {
+                                            width: 410px;
+                                            height: 70px;
+                                            margin-bottom: 5px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            h3 {
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                            }
+                                            img {
+                                                width: 135px;
+                                                height: 100px;
+                                                margin: -35px 30px 0 0;
+                                            }
+                                        }
+                                        .box-content {
+                                            width: 410px;                                    
+                                            height: 180px;
+                                            p {
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                line-height: 1.6;
+                                                color: #4c4c4c;
+                                            }
+                                        }
+                                    }                                  
+                                }                            
+                            }
+                            .box-wrapper2 {
+                                width: 470px;
+                                height: 400px;
+                                .box2 {
+                                    background-color: #fff;
+                                    width: 470px;
+                                    height: 380px;                               
+                                    .box-content-wrapper2 {
+                                        width: 410px;
+                                        height: 250px;
+                                        padding: 60px;
+                                        .box-title {
+                                            width: 410px;
+                                            height: 70px;
+                                            margin-bottom: 5px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            h3 {
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                            }
+                                            img {
+                                                width: 135px;
+                                                height: 100px;
+                                                margin: -35px 30px 0 0;
+                                            }
+                                        }
+                                        .box-content {
+                                            width: 410px;                                    
+                                            height: 180px;                                        
+                                            p {
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                line-height: 1.6;
+                                                color: #4c4c4c;
+                                                display: inline-flex;                                          
+                                                &:nth-of-type(3) {
+                                                    color: #999;
+                                                    font-size: 14px;
+                                                    margin-top: 30px;
+                                                }
+                                            }
+                                            span {
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                line-height: 1.6;
+                                                color: #4c4c4c;
+                                                img {
+                                                    margin: -3px 7px 0 7px;
+                                                    width: 7px;
+                                                    height: 11.38px;
+                                                }
+                                            }
+                                        }
+                                    }                                  
+                                }                            
+                            }
+                        }
+                        .box-row2 {
+                            display: flex;
+                            justify-content: space-between;
+                            .box-wrapper3 {
+                                width: 470px;
+                                height: 400px;
+                                .box3 {
+                                    background-color: #fff;
+                                    width: 470px;
+                                    height: 380px;                               
+                                    .box-content-wrapper3 {
+                                        width: 410px;
+                                        height: 250px;
+                                        padding: 60px;
+                                        .box-title {
+                                            width: 410px;
+                                            height: 70px;
+                                            margin-bottom: 5px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            h3 {
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                            }
+                                            img {
+                                                width: 135px;
+                                                height: 100px;
+                                                margin: -35px 30px 0 0;
+                                            }
+                                        }
+                                        .box-content {
+                                            width: 410px;                                    
+                                            height: 180px;
+                                            p {
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                line-height: 1.6;
+                                                color: #4c4c4c;
+                                            }
+                                        }
+                                    }                                  
+                                }                            
+                            }
+                            .box-wrapper4 {
+                                width: 470px;
+                                height: 400px;
+                                .box4 {
+                                    background-color: #fff;
+                                    width: 470px;
+                                    height: 380px;                               
+                                    .box-content-wrapper4 {
+                                        width: 410px;
+                                        height: 250px;
+                                        padding: 60px;
+                                        .box-title {
+                                            width: 410px;
+                                            height: 70px;
+                                            margin-bottom: 5px;
+                                            display: flex;
+                                            justify-content: space-between;
+                                            h3 {
+                                                font-size: 24px;
+                                                font-weight: 600;
+                                            }
+                                            img {
+                                                width: 135px;
+                                                height: 100px;
+                                                margin: -35px 30px 0 0;
+                                            }
+                                        }
+                                        .box-content {
+                                            width: 410px;                                    
+                                            height: 180px;
+                                            p {
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                line-height: 1.6;
+                                                color: #4c4c4c;
+                                            }
+                                        }
+                                    }                                  
+                                }                            
+                            }   
+                        }                                                                          
+                    }
+                    .comment {
+                        width: 100%;
+                        max-width: 960px;
+                        margin: 0 auto;
+                        height: 122px;
+                        padding-top: 30px;
+                        display: flex;
+                        text-align: center;
+                        .right-box {
+                            width: 50%;
+                            p {
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 500;
+                            }
+                            span {
+                                display: block;
+                                padding-top: 10px;
+                                font-weight: 600;
+                                a {
+                                    color: #5f0080;                                
+                                }
+                                img {
+                                    width: 6px;
+                                    margin-left: 5px;
+                                }
+                            }                           
+                        }
+                        .left-box {
+                            width: 50%;
+                            p {
+                                font-size: 14px;
+                                color: #666;
+                                font-weight: 500;
+                            }
+                            span {
+                                display: block;
+                                padding-top: 10px;
+                                font-weight: 600;
+                                a {
+                                    color: #5f0080;                                
+                                }
+                                img {
+                                    width: 6px;
+                                    margin-left: 5px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

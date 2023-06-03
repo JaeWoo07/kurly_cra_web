@@ -1,0 +1,322 @@
+#wrap {
+  width: 100%;
+  letter-spacing: -0.4px;
+}
+#wrap #board {
+  width: 100%;
+  padding: 50px 0;
+  background: #fff;
+}
+#wrap #board .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+#wrap #board .container .left {
+  width: 200px;
+}
+#wrap #board .container .left h2 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  padding: 0 0 35px 0;
+}
+#wrap #board .container .left ul {
+  padding: 0 0 40px 0;
+}
+#wrap #board .container .left ul li {
+  border: 1px solid #eee;
+  border-bottom: 0;
+  border-radius: 1px;
+}
+#wrap #board .container .left ul li:last-child {
+  border-bottom: 1px solid #eee;
+}
+#wrap #board .container .left ul li a {
+  font-weight: 500;
+  color: #777;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 15px 0 20px;
+  height: 50px;
+  background: url(../img/notice/arrow_right_gray.svg) no-repeat calc(100% - 15px) 50%;
+  background-size: 19px;
+}
+#wrap #board .container .left ul li a:hover {
+  font-weight: 600;
+  color: #5f0080;
+  background-image: url(../img/notice/arrow_right_purple.svg);
+  background-color: #f7f7f7;
+}
+#wrap #board .container .left ul li .active {
+  font-weight: 600;
+  color: #5f0080;
+  background-image: url(../img/notice/arrow_right_purple.svg);
+  background-color: #f7f7f7;
+}
+#wrap #board .container .left div {
+  background: url(../img/notice/arrow_right_black.svg) no-repeat calc(100% - 15px) 50%;
+  background-size: 19px;
+  background-color: #f7f7f7;
+  border: 0;
+  border-radius: 1px;
+  height: 60px;
+}
+#wrap #board .container .left div p {
+  padding: 14.5px 0 0 20px;
+}
+#wrap #board .container .left div p a {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#wrap #board .container .left div p:nth-child(1) {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 -8px 0;
+}
+#wrap #board .container .left div p:nth-child(2) {
+  font-size: 12px;
+  font-weight: 500;
+}
+#wrap #board .container .right {
+  width: 820px;
+}
+#wrap #board .container .right .title {
+  border-bottom: 2px solid #333;
+}
+#wrap #board .container .right .title h3 {
+  padding: 0 0 35px 0;
+}
+#wrap #board .container .right .title h3 strong {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  height: 28px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#wrap #board .container .right .title h3 em {
+  font-size: 14px;
+  font-weight: 500;
+  color: #999;
+  margin: 0 0 0 10px;
+}
+#wrap #board .container .right .title-name {
+  display: flex;
+  align-items: center;
+  height: 63px;
+  border-bottom: 1px solid #333;
+  font-size: 15px;
+  color: #333;
+}
+#wrap #board .container .right .title-name h4 {
+  text-align: center;
+}
+#wrap #board .container .right .title-name h4:nth-of-type(1) {
+  width: 50px;
+}
+#wrap #board .container .right .title-name h4:nth-of-type(2) {
+  width: 570px;
+}
+#wrap #board .container .right .title-name h4:nth-of-type(3) {
+  width: 100px;
+}
+#wrap #board .container .right .title-name h4:nth-of-type(4) {
+  width: 100px;
+}
+#wrap #board .container .right #insertForm {
+  width: 100%;
+}
+#wrap #board .container .right #insertForm ul {
+  width: 100%;
+  padding: 4px 20px;
+}
+#wrap #board .container .right #insertForm ul li {
+  width: 100%;
+  display: flex;
+}
+#wrap #board .container .right #insertForm ul li div {
+  padding: 12px 0;
+}
+#wrap #board .container .right #insertForm ul li div.left {
+  width: 140px;
+}
+#wrap #board .container .right #insertForm ul li div.left label {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 16px 0 0 0;
+  display: block;
+}
+#wrap #board .container .right #insertForm ul li div.left label i {
+  color: red;
+  font-weight: 500;
+  vertical-align: top;
+  margin-left: 1px;
+  font-size: 15px;
+}
+#wrap #board .container .right #insertForm ul li div.right {
+  width: 640px;
+}
+#wrap #board .container .right #insertForm ul li div.right input {
+  font-size: 14px;
+  width: 100%;
+  height: 56px;
+  padding: 0 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  outline-offset: -1px;
+}
+#wrap #board .container .right #insertForm ul li div.right input:focus {
+  outline: 1px solid #777;
+}
+#wrap #board .container .right #insertForm ul li div.right textarea {
+  font-size: 14px;
+  width: 100%;
+  height: 400px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 3px;
+  resize: none;
+  outline-offset: -1px;
+}
+#wrap #board .container .right #insertForm ul li div.right textarea:focus {
+  outline: 1px solid #777;
+}
+#wrap #board .container .right #insertForm .button-box {
+  width: 100%;
+  text-align: center;
+  padding: 50px 20px 0 20px;
+}
+#wrap #board .container .right #insertForm .button-box button {
+  width: 150px;
+  height: 42px;
+  border: 0;
+  margin: 0 10px;
+  background: #5f0080;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+#wrap #board .container .right .page-btn-box {
+  width: 100%;
+  text-align: center;
+}
+#wrap #board .container .right .page-btn-box span {
+  margin: 0 10px;
+}
+#wrap #board .container .right .page-btn-box span a {
+  font-size: 14px;
+  color: #444;
+}
+#wrap #board .container .right > ul {
+  padding: 0 0 50px 0;
+}
+#wrap #board .container .right > ul a > li {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #4c4c4c;
+}
+#wrap #board .container .right > ul a > li:hover {
+  color: #5f0080;
+}
+#wrap #board .container .right > ul a > li span {
+  text-align: center;
+}
+#wrap #board .container .right > ul a > li span:nth-of-type(1) {
+  width: 50px;
+}
+#wrap #board .container .right > ul a > li span:nth-of-type(2) {
+  width: 570px;
+  text-align: left;
+  padding: 0 20px;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#wrap #board .container .right > ul a > li span:nth-of-type(3) {
+  width: 100px;
+}
+#wrap #board .container .right > ul a > li span:nth-of-type(4) {
+  width: 100px;
+  color: #999;
+}
+#wrap #board .container .notice-write-btn-box {
+  width: 100%;
+  text-align: right;
+  padding: 50px 0 0 0;
+}
+#wrap #board .container .notice-write-btn-box button {
+  width: 150px;
+  height: 42px;
+  border: 0;
+  background: #5f0080;
+  border-radius: 3px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+#modal {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  white-space: pre-wrap;
+  line-height: 150%;
+}
+#modal .wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#modal .wrap .container {
+  margin: auto;
+  width: 360px;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+#modal .wrap .container .message-box {
+  padding: 40px 30px;
+  border-bottom: 1px solid rgb(247, 247, 247);
+}
+#modal .wrap .container .message-box h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+#modal .wrap .container .button-box {
+  width: 100%;
+}
+#modal .wrap .container .button-box button {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(95, 0, 128);
+  letter-spacing: -0.5px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}

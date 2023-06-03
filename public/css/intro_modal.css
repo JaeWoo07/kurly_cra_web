@@ -1,0 +1,47 @@
+#wrap {
+  width: 100%;
+}
+#wrap #introModal {
+  z-index: 5;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.1);
+}
+#wrap #introModal .container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+#wrap #introModal .container .wrap {
+  box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 440px;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+#wrap #introModal .container .wrap .img-box {
+  width: 100%;
+}
+#wrap #introModal .container .wrap .img-box img {
+  width: 100%;
+}
+#wrap #introModal .container .wrap .btn-box {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  background: #fff;
+}
+#wrap #introModal .container .wrap .btn-box button {
+  border: 0;
+  background: #fff;
+  width: 50%;
+  height: 100%;
+  color: #333;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}

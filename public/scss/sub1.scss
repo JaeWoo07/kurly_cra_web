@@ -1,0 +1,577 @@
+// #wrap {
+//     width: 100%;
+#sub {
+    width: 100%;        
+    #section1 {
+        width: 100%;
+        padding: 0 0 50px 0;
+        .container {
+            width: 100%;
+            max-width: 1068px;
+            margin: 0 auto;               
+            .gap {
+                width: 100%;
+                padding: 0 9px;
+                .title {
+                    width: 100%;
+                    h2 {
+                        font-size: 20px;
+                        text-align: center;
+                        color: #333;
+                    }
+                }
+                .content {
+                    width: 100%;
+                    a {
+                        width: 100%;
+                        display: block;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #section2 {
+        width: 100%;
+        padding: 0 0 70px 0;
+        .container {
+            width: 100%;
+            max-width: 1068px;
+            margin: 0 auto;               
+            .gap {
+                width: 100%;
+                padding: 0;
+                .title {
+                    width: 100%;
+                    padding: 0 0 50px 0;
+                    h2 {
+                        font-size: 28px;
+                        text-align: center;
+                        color: #333;
+                        font-weight: 600;
+                        letter-spacing: -1px;
+                    }
+                }
+                .content {
+                    width: 100%;
+                    display: flex;
+                    .left {
+                        // width: 249px;
+                        width: 100% / 4 * 1;
+                        position: sticky;  // 스크롤 탑값이 70픽셀에 도달하면 고정
+                        height: 100vh;
+                        top: 85px;
+                        left: 0;                          
+                        .left-header {
+                            width: 100%;
+                            padding: 0 28px 28px 9px;
+                            display: flex;
+                            justify-content: space-between;
+                            span {
+                                &:first-child {
+                                    font-size: 15px;
+                                    font-weight: 600;
+                                    color: #333;                                     
+                                }
+                            }
+                            a {
+                                display: inline-block;
+                                margin-top: -2px;
+                                span {
+                                    font-size: 14px;
+                                    font-weight: 600;
+                                    color: #ddd;
+                                }
+                            }
+                        }
+                        .left-content {
+                            width: 100%;
+                            height: 100%;
+                            padding: 0 28px 55px 9px;
+                            letter-spacing: -0.5px;
+                            overflow-y: auto;
+                            &::-webkit-scrollbar {  // 스크롤바 너비 설정
+                                width: 0;
+                            }
+                            &::-webkit-scrollbar-track {  // 스크롤바 트랙(막대바)
+                                background: #f0f0f0;
+                            }
+                            &::-webkit-scrollbar-thumb {  // 스크롤바 트랙바
+                                background: #ccc;
+                            }
+                            ul {
+                                width: 100%;
+                                li {
+                                    width: 100%;
+                                    border-top: 1px solid #eee;
+                                    &:last-child {
+                                        border-bottom: 1px solid #eee;                         
+                                    }
+                                    a {
+                                        display: flex;
+                                        width: 100%;
+                                        height: 52px;
+                                        align-items: center;
+                                        justify-content: space-between;                                           
+                                        span {                                               
+                                            font-size: 15px;
+                                            font-weight: 600;
+                                            color: #333;
+                                        }
+                                        svg {
+                                            width: 18px;
+                                            height: 18px;
+                                            transform: rotate(0deg);
+                                            transition: all 0.3s;
+                                            &.on {
+                                                transform: rotate(180deg);
+                                            }
+                                        }
+                                    }
+                                    .sub {
+                                        .sub1-brand-span1 {
+                                            display: flex;
+                                            width: 170px;                                     
+                                            margin: -3px 0 10px 0;
+                                            justify-content: space-between;                                                                                         
+                                            button {
+                                                display: flex;
+                                                font-weight: 600; 
+                                                font-size: 13.5px;
+                                                color: #555;
+                                                letter-spacing: -0.7px;  
+                                                &:first-child {                                                     
+                                                    color: rgb(95,0,128);
+                                                    margin-right: -40px;
+                                                }  
+                                            }
+                                            i {
+                                                color: #ddd;
+                                                font-size: 12px;
+                                                font-weight: 500;
+                                                padding: 0 9px 0 13px;
+                                                margin-top: 3.5px;
+                                                
+                                            }
+                                        }
+                                        ul {
+                                            li {
+                                                padding: 0 0 20px 0;
+                                                border: 0;                                                  
+                                                label {
+                                                    cursor: pointer;
+                                                    font-size: 14px;
+                                                    font-weight: 500;
+                                                    letter-spacing: 0.5px;
+                                                    color: #333;
+                                                    &:hover {
+                                                        color: rgb(95,0,128);
+                                                    }
+                                                    input[type= 'checkbox'] {
+                                                        width: 18px;
+                                                        height: 18px;
+                                                        margin: 0 8px 0 0;
+                                                        background: url(../img/sub1/check_off.svg) no-repeat 50% 50%;
+                                                        background-size: 18px 18px;
+                                                        border: 0;
+                                                        appearance: none;
+                                                        margin-top: -4px;
+                                                        &:checked {
+                                                            background-image: url(../img/sub1/check_on.svg);
+                                                        }                                                       
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        > span {
+                                            display: block;
+                                            padding: 0 0 15px 0; 
+                                            width: 100%;                                             
+                                            button {
+                                                    color: rgb(153, 153, 153);
+                                                    font-size: 12px;
+                                                    width: 100%;
+                                                    background: none;
+                                                    border: 0;
+                                                    font-weight: 600;
+                                                    cursor: pointer;
+                                                    svg {
+                                                        transform: rotate(90deg);
+                                                        margin-top: -3px;
+                                                    }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .right {
+                        // width: 783px;
+                        width: 100% / 4 * 3;                         
+                        padding: 0 9px;
+                        .right-header {
+                            width: 100%;
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 0 9px 20px 9px;
+                            span {
+                                font-size: 14px;
+                                &:nth-child(1) {
+                                    color: #333;                                       
+                                    font-weight: 600;
+                                    letter-spacing: -0.5px;
+                                }
+                                &:nth-child(2) {
+                                    a {
+                                        color: #999;
+                                        font-weight: 500;
+                                        letter-spacing: -1px;
+                                        &:nth-child(1) {
+                                            margin-top: 4px;
+                                            display: inline-block;
+                                            svg {
+                                                margin-top: -3px;
+                                            }
+                                        }
+                                        &:hover {
+                                            color: #333;
+                                            font-weight: 600;
+                                        }
+                                        &.on {
+                                            color: #333;
+                                            font-weight: 600;
+                                        }
+                                    }
+                                    i {
+                                        color: #ddd;
+                                        font-size: 11px;
+                                        font-weight: 500;
+                                        margin: 0 8px 0 3px;
+                                    }
+                                }                                  
+                            }
+                        }
+                        .right-content {
+                            width: 100%;
+                            ul {
+                                width: 100%;
+                                display: flex;
+                                flex-flow: row wrap;
+                                li {
+                                    width: 33.333%;
+                                    .col-gap {
+                                        margin: 0 9px 70px 9px;
+                                        a {       
+                                            .img-box {
+                                                width: 100%;position: relative;overflow: hidden;
+                                                > img {
+                                                    width: 100%;z-index: 1;position: relative;transition: all 0.3s;
+                                                    &:hover {
+                                                        transform: scale(1.025);
+                                                    }
+                                                }
+                                                > span {
+                                                    width: 45px;height: 45px;position: absolute;bottom: 15px;right: 15px;z-index: 2;
+                                                    img {
+                                                        width: 100%;
+                                                    }
+                                                }
+                                            }
+                                            .txt-box {
+                                                padding: 20px 0 0 0;line-height: 140%;letter-spacing: -0.5px;
+                                                h2 {
+                                                    font-size: 16px;
+                                                    font-weight: 500;
+                                                    color: #111;
+                                                    &:nth-child(1) {
+                                                        color: #888;
+                                                        font-weight: 500;
+                                                        font-size: 13.5px;
+                                                        margin: -5px 0 5px 0;
+                                                    }
+                                                }
+                                                h3 {
+                                                    font-size: 16px;padding: 0 0 0 0;font-weight: 600;
+                                                    strong {
+                                                        color: rgb(250, 98, 47);margin: 0 10px 0 0;
+                                                    }
+                                                    em {
+                                                        color: #333;
+                                                        margin-top: -1.2px;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                                h4 {
+                                                    font-size: 14px;margin-bottom: -2px;
+                                                    s {
+                                                        color: #aaa;
+                                                    }
+                                                    &.sub1-kurlyonly {
+                                                        font-size: 13px;
+                                                        border: 1px solid rgb(244, 244, 244);
+                                                        border-radius: 3px;
+                                                        padding: 1px 4px 2px 4px;
+                                                        background-color: rgb(244, 244, 244);
+                                                        text-align: center;
+                                                        color: rgb(95,0,128);
+                                                        font-weight: 600;
+                                                        width: 75px;
+                                                        margin-top: 13px;
+                                                        display: inline-block;
+                                                              
+                                                    }
+                                                }
+                                                h5 {
+                                                    font-size: 12px;
+                                                    padding: 8px 0 0 0;
+                                                    color: #aaa;
+                                                    font-weight: bolder;
+                                                    margin-bottom: 5px;
+                                                    .sub1-review {
+                                                        margin: -30px 0 -30px 0;
+                                                        display: inline-block;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }      
+}
+.sub1-modal1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 5;      
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    // display: none;
+    // &.on {
+    //     display: flex;
+    // }
+    .container {
+        border-radius: 15px;
+        width: 780px;
+        height: 540px;
+        background: #fff;
+        padding: 30px;
+        .content {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .title {
+                display: flex;
+                padding: 0 0 30px 0;
+                align-items: center;
+                h2 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin: 0 12px 0 0;
+                    letter-spacing: -1px;
+                }
+            }
+            ul {
+                display: flex;
+                flex-flow: row wrap;
+                li {
+                    width: 33.333%;
+                    padding: 10px 0;
+                    label {
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        color: #333;
+                        &:hover {
+                            color: rgb(95,0,128);
+                        }
+                        input[type= 'checkbox'] {
+                            width: 18px;
+                            height: 18px;
+                            margin: 0 8px 0 0;
+                            background: url(../img/sub1/check_off.svg) no-repeat 50% 50%;
+                            background-size: 18px 18px;
+                            border: 0;
+                            appearance: none;
+                            margin-top: -4px;
+                            &:checked {
+                                background-image: url(../img/sub1/check_on.svg);
+                            }                                                       
+                        }
+                    }
+                }
+            }
+            .button-box {
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+                button {
+                    width: 140px;
+                    height: 44px;
+                    font-weight: 600;
+                    background: #fff;
+                    color: rgb(221, 221, 221);
+                    border-radius: 3px;
+                    border: 1px solid rgb(221, 221, 221);
+                    cursor: pointer;
+                    margin: 0 2px;
+                    &.ok-btn {
+                        background: rgb(95,0,128);
+                        color: #fff;
+                        border: 1px solid rgb(95,0,128);
+                    }
+                    svg {
+                        margin: -2px 4px 0 0;
+                    }
+                }
+            }
+            .modal1-close-btn {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 32px;
+                height: 32px;
+                background: #fff;
+                border: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.sub1-modal2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    z-index: 5;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    // display: none;
+    // &.on {
+    //     display: flex;
+    // }
+    .container {
+        border-radius: 15px;
+        width: 780px;
+        height: 540px;
+        background: #fff;
+        padding: 30px;
+        .content {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            .title {
+                display: flex;
+                padding: 0 0 30px 0;
+                align-items: center;
+                h2 {
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin: 0 13px 0 0;
+                    letter-spacing: -1px;
+                }
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    letter-spacing: -1px;
+                    color: #555;
+                    margin: 0 10px;
+                    display: inline-block;
+                    margin-top: 5px;
+                    &.on {
+                        color: rgb(95,0,128);
+                    }
+                }
+                i {
+                    color: #eee;
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin: 3px 1px 0 3px;
+                }
+            }
+            ul {
+                display: flex;
+                flex-flow: row wrap;
+                li {
+                    width: 33.333%;
+                    padding: 10px 0;
+                    label {
+                        cursor: pointer;
+                        font-size: 14px;
+                        font-weight: 500;
+                        letter-spacing: 0.5px;
+                        color: #333;
+                        &:hover {
+                            color: rgb(95,0,128);
+                        }
+                        input[type= 'checkbox'] {
+                            width: 18px;
+                            height: 18px;
+                            margin: 0 8px 0 0;
+                            background: url(../img/sub1/check_off.svg) no-repeat 50% 50%;
+                            background-size: 18px 18px;
+                            border: 0;
+                            appearance: none;
+                            margin-top: -4px;
+                            &:checked {
+                                background-image: url(../img/sub1/check_on.svg);
+                            }                                                       
+                        }
+                    }
+                }
+            }
+            .button-box {
+                position: absolute;
+                bottom: 0;
+                text-align: center;
+                width: 100%;
+                button {
+                    width: 140px;
+                    height: 44px;
+                    font-weight: 600;
+                    background: #fff;
+                    color: rgb(221, 221, 221);
+                    border-radius: 3px;
+                    border: 1px solid rgb(221, 221, 221);
+                    cursor: pointer;
+                    margin: 0 2px;
+                    &.ok-btn {
+                        background: rgb(95,0,128);
+                        color: #fff;
+                        border: 1px solid rgb(95,0,128);
+                    }
+                    svg {
+                        margin: -2px 4px 0 0;
+                    }
+                }
+            }
+            .modal2-close-btn {
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 32px;
+                height: 32px;
+                background: #fff;
+                border: 0;
+                cursor: pointer;
+            }
+        }
+    }
+}

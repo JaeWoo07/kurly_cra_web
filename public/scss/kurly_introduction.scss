@@ -1,0 +1,133 @@
+#sub {
+    width: 100%;
+    #kurlyIntroduction {
+        width: 100%;
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            padding: 50px 0;          
+            .gap {
+                width: 100%;
+                .title {
+                    width: 100%;
+                    h2 {
+                        text-align: center;
+                        letter-spacing: -1.3px;
+                        font-weight: 500;
+                        font-size: 28px;
+                    }
+                }
+                .content {
+                    width: 100%;
+                    .box1 {
+                        width: 100%;
+                        padding: 50px 0 0 0;
+                        .box1-image {
+                            width: 100%;
+                            img {
+                            width: 100%;
+                            height: 400px;
+                            object-fit: cover; 
+                        }
+                        }
+                        .box1-text {
+                            width: 100%;
+                            padding: 0 0 50px 0;
+                            .text-title {
+                                width: 100%;
+                                padding: 70px 0 60px 0;
+                                h2 {                      
+                                    text-align: center;
+                                    letter-spacing: -1.3px;
+                                    font-weight: 600;
+                                    font-size: 34px;
+                                }
+                            }
+                            .text-content {
+                                width: 100%;
+                                max-width: 1050px;
+                                margin: 0 auto;
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    line-height: 1.8;
+                                }
+                            }                        
+                        }                     
+                    }
+                    .box2 {
+                        width: 100%;
+                        padding: 50px 0 0 0;
+                        .box2-image {
+                            width: 100%;
+                            img {
+                            width: 100%;
+                            height: 400px;
+                            object-fit: cover; 
+                        }
+                        }
+                        .box2-text {
+                            width: 100%;
+                            padding: 0 0 40px 0;
+                            .text-title {
+                                width: 100%;
+                                padding: 70px 0 60px 0;
+                                h2 {                      
+                                    text-align: center;
+                                    letter-spacing: -1.3px;
+                                    font-weight: 600;
+                                    font-size: 34px;
+                                }
+                            }
+                            .text-content {
+                                width: 100%;
+                                max-width: 1050px;
+                                margin: 0 auto;
+                                p {
+                                    font-size: 18px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    line-height: 1.8;
+                                }
+                            }                        
+                        }                     
+                    }
+                    .box3 {
+                        padding-top: 50px;
+                        width: 100%;
+                        max-width: 1050px;
+                        margin: 0 auto;                                           
+                        .box3-1, .box3-2, .box3-3, .box3-4, .box3-5, .box3-6 {
+                            padding: 20px 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img {
+                                width: auto;
+                            }
+                            .box3-1-text, .box3-2-text, .box3-3-text, .box3-4-text, .box3-5-text, .box3-6-text {
+                                width: 100%;
+                                padding: 0 0 0 45px;                             
+                                h2 {
+                                    color: #5f0080;
+                                    font-size: 20px;
+                                    font-weight: 600;
+                                    padding-bottom: 17px;
+                                    border-bottom: 1px solid #ddd;
+                                }
+                                p {
+                                    padding-top: 15px;
+                                    font-size: 16px;
+                                    color: #333;
+                                    font-weight: 300;
+                                    line-height: 1.6;
+                                }   
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.sign-in-id-result {
+  width: 100%;
+  letter-spacing: -0.7px;
+}
+.sign-in-id-result #signInIdResult {
+  width: 100%;
+  padding: 80px 0;
+}
+.sign-in-id-result #signInIdResult .container {
+  width: 100%;
+  max-width: 340px;
+  margin: 0 auto;
+}
+.sign-in-id-result #signInIdResult .container .gap {
+  width: 100%;
+}
+.sign-in-id-result #signInIdResult .container .gap .title {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.sign-in-id-result #signInIdResult .container .gap .title h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: -5px;
+}
+.sign-in-id-result #signInIdResult .container .gap .title h4 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #999;
+}
+.sign-in-id-result #signInIdResult .container .gap .content {
+  width: 100%;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul {
+  width: 100%;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li {
+  width: 100%;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li div {
+  width: 100%;
+  display: flex;
+  padding-bottom: 80px;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li div span img {
+  margin: -4px 10px 0 0;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li div span strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 2px;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li div span em {
+  font-size: 11px;
+  color: #999;
+  font-weight: 600;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  border: 1px solid #5f0080;
+  border-radius: 3px;
+  background: #fff;
+  color: #5f0080;
+  font-weight: 600;
+  font-size: 16px;
+}
+.sign-in-id-result #signInIdResult .container .gap .content ul li button {
+  cursor: pointer;
+  width: 100%;
+  margin-top: 10px;
+  display: block;
+  height: 56px;
+  border-radius: 3px;
+  border: 0;
+  background: #5f0080;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}

@@ -1,0 +1,190 @@
+#wrap {
+    #footer {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        border-top: 1px solid #eee;
+        .row1 {
+            background: #fff;
+            padding: 30px 0 40px 0;
+            .container {
+                width: 1068px;
+                padding: 0 9px;
+                margin: 0 auto;
+                .row1-1 {
+                    display: flex;
+                    padding: 0 0 28px 0;
+                    .left {
+                        width: 50%;
+                        h1 {
+                            font-size: 20px;
+                            color: #222;
+                            font-weight: 500;
+                        }
+                        h2 {
+                            padding: 25px 0 20px 0;
+                            a {
+                                font-size: 28px;
+                                color: #222;
+                                font-weight: 700;
+                                cursor: default;
+                            }
+                            em {
+                                display: inline-block;
+                                margin: 8px 0 0 10px;
+                                font-size: 16px;
+                                color: #222;
+                                font-weight: 500;
+                                letter-spacing: -1px;
+                            }
+                        }
+                        ul {
+                            li {
+                                font-size: 14px;
+                                color: #888;
+                                display: flex;
+                                padding: 8px 0;
+                                a {
+                                    display: flex;
+                                    width: 140px;
+                                    height: 40px;
+                                    border: 1px solid #ddd;
+                                    border-radius: 3px;
+                                    color: #222;
+                                    justify-content: center;
+                                    align-items: center;
+                                    letter-spacing: -0.3px;
+                                    font-weight: 500;
+                                }
+                                span {
+                                    margin: 3px 0 0 15px;
+                                    line-height: 130%;
+                                    letter-spacing: -1px;
+                                    font-size: 13.5px;
+                                    i {
+                                        color: #ccc;
+                                        margin: -5px 2px 0 2px;
+                                        display: inline-block;
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                        }
+                        div {
+                            font-size: 12px;
+                            color: #888;
+                            line-height: 140%;
+                            padding-top: 8px;
+                            font-weight: 500;                           
+                            a {
+                                color: #888;
+                                display: inline-block;
+                                margin-top: -3px;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                    .right {
+                        width: 50%;
+                        // padding: 0 0 0 70px;
+                        p {
+                            a {
+                                font-size: 14px;
+                                color: #000;
+                                font-weight: 500;
+                                margin-left: 14.41px;
+                                letter-spacing: -1.1px;
+                                &:nth-of-type(1) {
+                                    margin-left: 0;
+                                }
+                            }
+                        }
+                        div {
+                            padding: 40px 0 40px 0;                          
+                            address {
+                                letter-spacing: -0.5px;
+                                line-height: 152%;
+                                font-size: 12px;
+                                margin-top: -6px;
+                                color: #888;
+                                font-weight: 500;
+                                > i {
+                                    color: #ccc;
+                                    display: inline-block;
+                                    margin: -5px 1.5px 0 1.5px;
+                                    font-size: 11px;
+                                }
+                                a {
+                                    color: rgb(95,0,128);
+                                    display: inline-block;
+                                    margin-top: -3px;
+                                    font-weight: 500;
+                                }
+                            }
+                        }
+                        span {                            
+                            a {
+                                margin-right: 10px;
+                                img {
+                                    width: 30px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .row1-2 {
+                    display: flex;
+                    justify-content: space-between;
+                    border-top: 1px solid #eee;
+                    padding: 28px 0 0 0;
+                    margin-bottom: -8px;
+                    letter-spacing: -0.3px;
+                    a {
+                        display: block;
+                        display: flex;
+                        margin-right: -8px;                                                       
+                        img {
+                            width: auto;
+                            height: 34px;
+                        }                      
+                        span {
+                            font-size: 10px;
+                            color: #888;
+                            line-height: 140%;
+                            padding: 0 0 0 10px;
+                        }
+                        &:nth-child(3) {
+                            img {
+                                height: 32px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .row2 {
+            background: #f7f7f7;
+            padding: 20px 0 30px 0;
+            .container {
+                width: 1068px;
+                padding: 0 9px;
+                text-align: center;
+                margin: 0 auto;
+                line-height: 160%;
+                font-size: 10px;
+                color: #888;
+                strong {
+                    font-weight: normal;
+                    display: block;
+                    padding: 0 0 6px 0;
+                    letter-spacing: -0.3px;
+                }
+                em {
+                    font-weight: normal;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+

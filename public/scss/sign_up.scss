@@ -1,0 +1,530 @@
+// #wrap {
+//     width: 100%;
+#sub {
+    width: 100%;
+    #signUp {
+        width: 100%;
+        padding: 60px 0 100px 0;
+        .container {
+            width: 100%;
+            max-width: 640px;
+            margin: 0 auto;
+            .title {
+                text-align: center;
+                position: relative;
+                padding: 0 0 80px 0;
+                border-bottom: 2px solid #222;                 
+                h2 {                       
+                    font-size: 28px;
+                    color: #333;
+                    font-weight: 600;
+                }
+                span {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    color: rgb(102,102,102);
+                    font-size: 12px;
+                    letter-spacing: -0.7px;
+                    font-weight: 600;
+                    padding: 0 0 10px 0;
+                    i {
+                        color: rgb(238, 106, 123);
+                        font-weight: 600;
+                        display: inline-block;
+                        margin-top: -6px;
+                    }
+                }
+            }
+            .content {
+                width: 100%;
+                form {
+                    width: 100%;
+                    ul {
+                        width: 100%;                           
+                        li {
+                            width: 100%;
+                            padding: 10px 20px;
+                            &.row-06-2 {
+                                display: none;                                   
+                                p {
+                                    font-size: 12px;
+                                    color: rgb(102,102,102);
+                                    line-height: 130%;
+                                    letter-spacing: -0.7px;
+                                    padding: 23px 140px 0 140px;
+                                    margin-bottom: -8px;
+                                }
+                                &.on {
+                                    display: block;
+                                }
+                            }
+                            // 주소1
+                            &.row-07 {
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }
+                            }
+                            // 주소2
+                            &.row-08 {
+                                margin-top: -8px;
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }
+                            }
+                            // 주소 검색버튼
+                            &.row-09 {                                    
+                                display: block;
+                                &.on {
+                                    display: none;
+                                }
+                            }
+                            &.row-12 {
+                                margin: -20px 0 20px 0;
+                            }
+                            // 성별
+                            &.row-11 {
+                                margin-top: -10px;
+                                .wrap-box {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    // align-items: center;
+                                }
+                                &.on {
+                                    margin-top: 10px;
+                                }                              
+                            }
+                            &.row-13 {
+                                margin-top: -10px;
+                                .wrap-box {
+                                    display: flex;
+                                    justify-content: space-between;
+                                    // align-items: center;
+                                }                               
+                            }
+                            &.row-14-1-1 {                                   
+                                margin-top: -15px;
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }                                 
+                            }
+                            &.row-14-1-2 {
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }
+                                .wrap-box {
+                                    p {
+                                        font-size: 12px;
+                                        color: rgb(102,102,102);
+                                        line-height: 130%;
+                                        letter-spacing: -0.7px;
+                                        margin-top: -5px;
+                                    }
+                                }                                   
+                            }
+                            &.row-14-2-1 {                                   
+                                margin-top: -15px;
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }                                                                  
+                            }
+                            &.row-14-2-2 {
+                                display: none;
+                                &.on {
+                                    display: block;
+                                }
+                                .wrap-box {
+                                    p {
+                                        font-size: 12px;
+                                        color: rgb(102,102,102);
+                                        line-height: 130%;
+                                        letter-spacing: -0.7px;
+                                        margin-top: -5px;
+                                    }
+                                }                                   
+                            }
+                            &.row-15 {
+                                .wrap-box {
+                                    border-bottom: 1px solid rgb(51, 51, 51);
+                                    margin-top: -55px;
+                                    &.on {
+                                        margin-top: -40px;
+                                        margin-bottom: 15px
+                                    }
+                                }
+                            }
+                            &.row-16 {
+                                .wrap-box {
+                                    height: auto;
+                                    padding-right: 0;
+                                    p {
+                                        font-size: 12px;
+                                        color: rgb(102,102,102);
+                                        line-height: 130%;
+                                        padding: 8px 0 0 34px;
+                                        letter-spacing: -0.85px;
+                                    }
+                                }                                   
+                            }
+                            &.row-21 {
+                                .wrap-box {
+                                    label {
+                                        padding: 0 0 0 25px;
+                                        &:first-child {
+                                            margin-right: 55px;
+                                        }
+                                    }
+                                    p {
+                                        padding: 10px 0 0 73px;
+                                        font-size: 12px;
+                                        letter-spacing: -1px;
+                                        color: rgb(95, 0, 128);
+                                        font-weight: 600;
+                                        background: url(../img/sub5/ico_sub_dot.svg) no-repeat 58px 400%;
+                                    }
+                                }
+                            }
+                            &.row-check {
+                                .wrap-box {
+                                    letter-spacing: -0.7px;
+                                    height: auto;
+                                    padding-right: 0;
+                                    i {
+                                        display: inline-block;
+                                        color: rgb(153, 153, 153);
+                                        margin: -5px 0 0 5px;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                            .wrap-box {
+                                width: 100%;
+                                height: 45px;
+                                padding: 0 140px;
+                                position: relative;
+                                input[type="text"] {
+                                    width: 100%;
+                                    height: 100%;
+                                    border: 1px solid #ccc;
+                                    border-radius: 3px;
+                                    background: #fff;
+                                    color: #333;
+                                    padding: 0 15px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    letter-spacing: -0.5px;
+                                    &:focus {
+                                        outline: 1px solid #333;
+                                    }                                                               
+                                }
+                                input[type="password"] {
+                                    width: 100%;
+                                    height: 100%;
+                                    border: 1px solid #ccc;
+                                    border-radius: 3px;
+                                    background: #fff;
+                                    color: #333;
+                                    padding: 0 15px;
+                                    font-weight: 500;
+                                    font-size: 16px;
+                                    letter-spacing: -0.5px;
+                                    &:focus {
+                                        outline: 1px solid #333;
+                                    }                                                               
+                                }
+                                input[type="radio"] {
+                                    width: 24px;
+                                    height: 24px;
+                                    border: 1px solid #ccc;
+                                    margin: -4px 10px 0 0;
+                                    appearance: none;
+                                    border-radius: 50%;
+                                    &:checked {
+                                        border: 7.1px solid rgb(95, 0, 128);
+                                    }
+                                }
+                                input[type="checkbox"] {
+                                    width: 24px;
+                                    height: 24px;
+                                    border: 0;
+                                    margin: -4px 10px 0 0;
+                                    appearance: none;
+                                    border-radius: 50%;
+                                    background: url(../img/sub5/check_off.svg) no-repeat 50% 50%;
+                                    &:checked {
+                                        background-image: url(../img/sub5/check_on.svg);
+                                    }                                       
+                                }
+                                label {
+                                    position: absolute;
+                                    left: 0;
+                                    top: 0;
+                                    height: 100%;
+                                    display: flex;
+                                    align-items: center;
+                                    font-size: 14px;
+                                    color: #333;
+                                    font-weight: 600;
+                                    i {
+                                        color: rgb(238, 106, 123);
+                                        font-weight: 600;
+                                        display: inline-block;
+                                        margin: -6px 0 0 1px;
+                                    }
+                                    &.radio {
+                                        position: relative;
+                                        display: inline-block;
+                                        height: auto;
+                                        font-weight: 500;
+                                        color: #222; 
+                                        letter-spacing: -0.3px;                                          
+                                    }
+                                    &.radio-title {
+                                        margin-top: -15px;
+                                    }
+                                    &.check-box-all {
+                                        position: relative;
+                                        height: auto;
+                                        font-size: 18px;
+                                        color: #333;
+                                        font-weight: 600;
+                                    }
+                                    &.check-box {
+                                        position: relative;
+                                        height: auto;
+                                        font-size: 14px;
+                                        color: #333;
+                                        font-weight: 500;
+                                        display: inline-block;
+                                    }
+                                    &.check-label {
+                                        height: auto;
+                                    }
+                                }
+                                button {
+                                    position: absolute;
+                                    right: 0;
+                                    top: 0;
+                                    width: 130px;
+                                    height: 100%;
+                                    font-size: 14px;
+                                    color: rgb(95, 0, 128);
+                                    font-weight: 600;
+                                    border: 1px solid rgb(95, 0, 128);
+                                    border-radius: 3px;
+                                    background: #fff;
+                                    cursor: pointer;
+                                    // id 중복확인 버튼
+                                    &.id-ok-btn {
+                                        &.on {
+                                            color: rgb(221,221,221);
+                                            border: 1px solid rgb(221,221,221);
+                                            cursor: default;
+                                        }
+                                    }
+                                    // 이메일 중복확인 버튼
+                                    &.email-ok-btn {
+                                        &.on {
+                                            color: rgb(221,221,221);
+                                            border: 1px solid rgb(221,221,221);
+                                            cursor: default;
+                                        }
+                                    }
+                                    &.addr-search-btn {
+                                        position: relative;
+                                        width: 100%;
+                                    }
+                                    // 휴대폰 인증번호 받기 버튼
+                                    &.hp-res-num-btn {
+                                        color: rgb(221,221,221);
+                                        border: 1px solid rgb(221,221,221);
+                                        cursor: default;
+                                        &.on {
+                                            color: rgb(95, 0, 128);
+                                            border: 1px solid rgb(95, 0, 128);
+                                            cursor: pointer;
+                                            &.off {
+                                                display: none;
+                                            }
+                                        }
+                                    }
+                                    // 다른 번호 인증
+                                    &.hp-res-num-btn2 {
+                                        display: none;
+                                        &.on {
+                                            display: block;
+                                        }
+                                    }
+                                    &.hp-ok-num-btn {
+                                        color: rgb(221,221,221);
+                                        border: 1px solid rgb(221,221,221);
+                                        cursor: default;
+                                        &.on {
+                                            color: rgb(95, 0, 128);
+                                            border: 1px solid rgb(95, 0, 128);
+                                            cursor: pointer;
+                                        }
+                                    }
+                                    img {
+                                        margin: -4px 2px 0 0;
+                                    }
+                                    // 친구 추천 아이디 버튼
+                                    &.add-input-btn {
+                                        &.on {
+                                            color: rgb(221,221,221);
+                                            border: 1px solid rgb(221,221,221);
+                                            cursor: default;
+                                        }
+                                    }
+                                }
+                                // 주소 샛별배송
+                                .sb {
+                                    font-size: 12px;
+                                    color: rgb(95, 0, 128);
+                                    font-weight: 600;
+                                    display: none;
+                                    &.on {
+                                        display: block;
+                                    }
+                                    padding: 0 0 20px 0;
+                                }
+                                h5 {
+                                    font-size: 12px;
+                                    color: #666;
+                                    font-weight: 500;
+                                    margin: -5px 0 0 0;
+                                    letter-spacing: -0.3px;                     
+                                }
+                                .birth-box {
+                                    width: 100%;
+                                    height: 100%;
+                                    background: #fff;
+                                    border: 1px solid #ccc;
+                                    display: flex;
+                                    justify-content: space-evenly;
+                                    align-items: center;
+                                    border-radius: 3px;
+                                    padding: 0 20px;                                                                    
+                                    input {
+                                        width: 30%;
+                                        border: 0;
+                                        outline: 0;
+                                        text-align: center;
+                                        font-size: 14px;
+                                        font-weight: 500;
+                                        &:focus {
+                                            outline: none;
+                                        }
+                                    }
+                                    i {
+                                        width: 2%;
+                                        color: rgb(204, 204, 204);
+                                    }                                  
+                                }
+                                .count-timer {
+                                    position: absolute;
+                                    z-index: 2;
+                                    top: 13px;
+                                    right: 150px;
+                                    font-size: 14px;
+                                    color: rgb(240, 63, 64);
+                                    font-weight: 600;
+                                    letter-spacing: -0.8px;
+                                    i{
+                                        display: inline-block;
+                                        height: 10px;
+                                        margin: -5px 2px 0 2px;
+                                    }
+                                }  
+                            }
+                            p.isError {
+                                padding: 0 0 0 140px;
+                                font-size: 13px;
+                                color: rgb(240, 63, 64);
+                                font-weight: 600;
+                                letter-spacing: -0.3px;
+                                display: none;
+                                &.on {
+                                    display: block;
+                                    padding: 8px 0 8px 140px;
+                                }
+                            }
+                        }
+                    }
+                    .button-box-border {
+                        border-top: 1px solid rgb(247, 247, 247);
+                        margin-top: 5px;
+                    }
+                    .button-box {
+                        padding: 40px 0 0 0;
+                        text-align: center;
+                        button {
+                            height: 56px;
+                            width: 240px;
+                            background: rgb(95, 0, 128);
+                            border-radius: 3px;
+                            color: #fff;
+                            font-size: 16px;
+                            font-weight: 600;
+                            border: 1px solid rgb(95, 0, 128);
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }       
+}
+#modal {
+    // display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    .wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;          
+        .container {
+            margin: auto;
+            width: 360px;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            .message-box {
+                padding: 40px 30px;
+                border-bottom: 1px solid rgb(247, 247, 247);
+                h2 {
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #333;
+                    letter-spacing: -0.5px;
+                }
+            }
+            .button-box {
+                width: 100%;
+                button {
+                    width: 100%;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgb(95, 0, 128);
+                    letter-spacing: -0.5px;
+                    background: #fff;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}  
+// }

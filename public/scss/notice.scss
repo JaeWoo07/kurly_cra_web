@@ -1,0 +1,329 @@
+#wrap {
+    width: 100%;
+    letter-spacing: -0.4px;  
+    #board {
+        width: 100%;
+        padding: 50px 0;
+        background: #fff;
+        .container {
+            width: 100%;
+            max-width: 1050px;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            .left {
+                width: 200px;
+                h2 {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #333;
+                    text-align: left;
+                    padding: 0 0 35px 0;
+                }
+                ul {
+                    padding: 0 0 40px 0;
+                    li {
+                        border: 1px solid #eee;
+                        border-bottom: 0;
+                        border-radius: 1px;
+                        &:last-child {
+                            border-bottom: 1px solid #eee;
+                        }
+                        a {
+                            font-weight: 500;
+                            color: #777;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            padding: 0 15px 0 20px;
+                            height: 50px;
+                            background: url(../img/notice/arrow_right_gray.svg) no-repeat calc(100% - 15px) 50%;  
+                            background-size: 19px;                               
+                            &:hover {
+                                font-weight: 600;
+                                color: #5f0080;
+                                background-image: url(../img/notice/arrow_right_purple.svg);
+                                background-color: #f7f7f7;
+                            }
+                        }
+                        .active {
+                            font-weight: 600;
+                            color: #5f0080;
+                            background-image: url(../img/notice/arrow_right_purple.svg);
+                            background-color: #f7f7f7;
+                        }
+                    }
+                }
+                div {
+                    background: url(../img/notice/arrow_right_black.svg) no-repeat calc(100% - 15px) 50%;  
+                    background-size: 19px; 
+                    background-color: #f7f7f7;
+                    border: 0;
+                    border-radius: 1px;
+                    height: 60px;         
+                    p {
+                        padding: 14.5px 0 0 20px;                         
+                        a {
+                            color: #333;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                        }
+                        &:nth-child(1) {
+                            font-size: 14px;
+                            font-weight: 600;
+                            margin: 0 0 -8px 0;
+                        }
+                        &:nth-child(2) {
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+            .right {
+                width: 820px;
+                .title {
+                    border-bottom: 2px solid #333;
+                    h3 {
+                        padding: 0 0 35px 0;
+                        strong {
+                            font-size: 24px;
+                            font-weight: 600;
+                            color: #333;
+                            height: 28px;
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                        }
+                        em {
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #999;
+                            margin: 0 0 0 10px;
+                        }
+                    }
+                }
+                // 공지사항 목록              
+                .title-name {
+                    display: flex;
+                    align-items: center;
+                    height: 63px;                   
+                    border-bottom: 1px solid #333;
+                    font-size: 15px;
+                    color: #333;
+                    h4 {
+                        text-align: center;
+                        &:nth-of-type(1) {
+                            width: 50px;
+                        }
+                        &:nth-of-type(2) {
+                            width: 570px;
+                        }
+                        &:nth-of-type(3) {
+                            width: 100px;
+                        }
+                        &:nth-of-type(4) {
+                            width: 100px;
+                        }
+                    }
+                }
+                // 공지사항 입력 폼
+                #insertForm {
+                    width: 100%;
+                    ul {
+                        width: 100%;
+                        padding: 4px 20px;
+                        li {
+                            width: 100%;
+                            display: flex;
+                            div {
+                                padding: 12px 0;
+                                &.left {
+                                    width: 140px;
+                                    label {
+                                        font-size: 15px;
+                                        font-weight: 500;
+                                        padding: 16px 0 0 0;
+                                        display: block;
+                                        i {
+                                            color: red;
+                                            font-weight: 500;
+                                            vertical-align: top;
+                                            margin-left: 1px;
+                                            font-size: 15px;
+                                        }
+                                    }
+                                }
+                                &.right {
+                                    width: 640px;                                  
+                                    input {
+                                        font-size: 14px;
+                                        width: 100%;
+                                        height: 56px;
+                                        padding: 0 15px;
+                                        border: 1px solid #ddd;
+                                        border-radius: 3px;
+                                        outline-offset: -1px;
+                                        &:focus {
+                                            outline: 1px solid #777;
+                                        }                                   
+                                    }
+                                    textarea {
+                                        font-size: 14px;
+                                        width: 100%;
+                                        height: 400px;
+                                        padding: 15px;
+                                        border: 1px solid #ddd;
+                                        background: #fff;
+                                        border-radius: 3px;
+                                        resize: none;
+                                        outline-offset: -1px;
+                                        &:focus {
+                                            outline: 1px solid #777;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .button-box {
+                        width: 100%;
+                        text-align: center;
+                        padding: 50px 20px 0 20px;
+                        button {
+                            width: 150px;
+                            height: 42px;
+                            border: 0;
+                            margin: 0 10px;
+                            background: #5f0080;
+                            border-radius: 3px;
+                            cursor: pointer;
+                            color: #fff;
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                    }
+                }
+                // 페이지 버튼
+                .page-btn-box {
+                    width: 100%;
+                    text-align: center;
+                    span {
+                        margin: 0 10px;
+                        a {
+                            font-size: 14px;
+                            color: #444;
+                        }
+                    }
+                }
+                > ul {
+                    padding: 0 0 50px 0;
+                    a {                                            
+                        > li {
+                            display: flex;
+                            align-items: center;
+                            height: 56px;
+                            border-bottom: 1px solid #eee;
+                            font-size: 14px;
+                            color: #4c4c4c;                           
+                            &:hover {
+                                color: #5f0080;
+                            }
+                            span {
+                                text-align: center;
+                                &:nth-of-type(1) {
+                                    width: 50px;
+                                }
+                                &:nth-of-type(2) {
+                                    width: 570px;
+                                    text-align: left;
+                                    // text-indent: 20px;                                
+                                    padding: 0 20px;
+                                    display: block;
+                                    white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis; // 짤린 부분 ...으로 표시                       
+                                }
+                                &:nth-of-type(3) {
+                                    width: 100px;                                   
+                                }
+                                &:nth-of-type(4) {
+                                    width: 100px;
+                                    color: #999;
+                                }
+                            }
+                        }
+                    }                   
+                }
+            }
+            .notice-write-btn-box {
+                width: 100%;
+                text-align: right;
+                padding: 50px 0 0 0;
+                button {
+                    width: 150px;
+                    height: 42px;
+                    border: 0;
+                    background: #5f0080;
+                    border-radius: 3px;
+                    cursor: pointer;
+                    color: #fff;
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+        }        
+    }
+}
+
+#modal {
+    // display: none;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    white-space: pre-wrap; // \n 개행문자 텍스트 인식
+    line-height: 150%;
+    .wrap {
+        width: 100%;
+        height: 100%;
+        display: flex;          
+        .container {
+            margin: auto;
+            width: 360px;
+            background: #fff;
+            border-radius: 15px;
+            overflow: hidden;
+            .message-box {
+                padding: 40px 30px;
+                border-bottom: 1px solid rgb(247, 247, 247);
+                h2 {
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #333;
+                    letter-spacing: -0.5px;
+                }
+            }
+            .button-box {
+                width: 100%;
+                button {
+                    width: 100%;
+                    height: 50px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: rgb(95, 0, 128);
+                    letter-spacing: -0.5px;
+                    background: #fff;
+                    border: 0;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

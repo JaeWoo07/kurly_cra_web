@@ -1,0 +1,534 @@
+@charset "UTF-8";
+/* 헤더 header.scss */
+/* justify-content : flex item의 수평 정렬 (기본값 flex-start)
+   align-items : flex item의 수직 정렬 (기본값 stretch) */
+/* box-shadow: 0(오른쪽, 왼쪽 그림자 x축) 0(위, 아래 그림자 y축) 0(그림자 농도(길이)) 0(전체 흩뿌림 효과) */
+#wrap #header {
+  width: 100%;
+  background: #fff;
+  position: relative;
+  z-index: 3;
+}
+#wrap #header .header-row1 {
+  width: 100%;
+  height: 36px;
+  z-index: 3;
+  position: relative;
+}
+#wrap #header .header-row1 .container {
+  width: 100%;
+  height: 36px;
+  max-width: 1068px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#wrap #header .header-row1 .container #aside {
+  width: auto;
+}
+#wrap #header .header-row1 .container #aside > ul {
+  width: 100%;
+  display: flex;
+}
+#wrap #header .header-row1 .container #aside > ul li {
+  font-size: 12px;
+  position: relative;
+  line-height: 36px;
+}
+#wrap #header .header-row1 .container #aside > ul li a {
+  color: #333;
+}
+#wrap #header .header-row1 .container #aside > ul li a.on {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row1 .container #aside > ul li a img {
+  width: 8px;
+  margin: -2px 0 0 4px;
+}
+#wrap #header .header-row1 .container #aside > ul li a span {
+  font-size: 12px;
+  margin-top: -1.5px;
+  display: inline-block;
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row1 .container #aside > ul li a.custom-center-btn {
+  margin-top: 1px;
+  display: inline-block;
+}
+#wrap #header .header-row1 .container #aside > ul li i {
+  color: #ccc;
+  margin: 0 8px;
+}
+#wrap #header .header-row1 .container #aside > ul li .custom-center { /* 툴팁메뉴 */
+  position: absolute;
+  top: 36px;
+  right: 0;
+  background: #fff;
+  width: 120px;
+  border: 1px solid #ccc;
+  display: none;
+  margin: -0.5px 0 0 0;
+}
+#wrap #header .header-row1 .container #aside > ul li .custom-center ul {
+  padding: 3px 15px 3px 5px;
+}
+#wrap #header .header-row1 .container #aside > ul li .custom-center ul li {
+  line-height: 190%;
+}
+#wrap #header .header-row1 .container #aside > ul li .custom-center ul li a {
+  color: #000;
+  font-size: 12px;
+  font-weight: 500;
+}
+#wrap #header .header-row2 {
+  width: 100%;
+  height: 64px;
+  z-index: 2;
+  position: relative;
+}
+#wrap #header .header-row2 .container {
+  width: 100%;
+  max-width: 1068px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 0 9px;
+  display: flex;
+}
+#wrap #header .header-row2 .container .left {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+#wrap #header .header-row2 .container .left a:nth-child(1) {
+  color: rgb(95, 0, 128);
+  font-size: 17px;
+  font-weight: bolder;
+}
+#wrap #header .header-row2 .container .left a:nth-child(1) img {
+  margin: 0 15px 0 0;
+  cursor: default;
+}
+#wrap #header .header-row2 .container .left a:nth-child(3) {
+  color: #ccc;
+  font-size: 17px;
+  font-weight: bolder;
+  margin-top: -4px;
+}
+#wrap #header .header-row2 .container .left a:nth-child(3):hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row2 .container .left a:nth-child(3) img {
+  margin: -17px 0 0 3px;
+}
+#wrap #header .header-row2 .container .left i {
+  margin: -2px 10px 0 10px;
+  color: #ccc;
+  font-size: 14px;
+  display: inline-flex;
+  height: 18px;
+}
+#wrap #header .header-row2 .container .center {
+  width: 400px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+#wrap #header .header-row2 .container .center #search {
+  width: 100%;
+  height: 48px;
+  border: 1px solid rgb(95, 0, 128);
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 16px;
+  letter-spacing: -0.4px;
+  outline: 0;
+  position: relative;
+  z-index: 1;
+}
+#wrap #header .header-row2 .container .center a {
+  z-index: 2;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #header .header-row2 .container .right {
+  width: 325px;
+  height: 100%;
+}
+#wrap #header .header-row2 .container .right ul {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+#wrap #header .header-row2 .container .right ul li {
+  width: 100%;
+  height: 45px;
+}
+#wrap #header .header-row2 .container .right ul li:nth-child(2) {
+  width: 35px;
+  margin: 10px 21px 0 0;
+}
+#wrap #header .header-row2 .container .right ul li:nth-child(3) {
+  width: 35px;
+  margin: 10px -11px 0 0;
+}
+#wrap #header .header-row2 .container .right ul li a {
+  margin: 0 0 0 17px;
+  display: flex;
+}
+#wrap #header .header-row2 .container .right ul li a:first-child {
+  margin: 0 17px 0 0;
+}
+#wrap #header .header-row2 .container .right ul li a img {
+  width: auto;
+  display: flex;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip { /* 툴팁메뉴 */
+  position: absolute;
+  top: 62px;
+  left: 18%;
+  width: 270px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+  display: none;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip::before {
+  content: "";
+  background: url(../img/try_angle.svg) no-repeat 50% 0;
+  position: absolute;
+  top: -11px;
+  left: 51.5%;
+  width: 18px;
+  height: 11px;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .text-box {
+  width: 100%;
+  line-height: 170%;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .text-box span {
+  color: rgb(95, 0, 128);
+  display: inline-block;
+  margin-top: -2px;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .button-box {
+  padding: 10px 0 0 0;
+  width: 100%;
+  display: flex;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .button-box button {
+  width: 50%;
+  height: 38px;
+  border: 1px solid rgb(95, 0, 128);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .button-box button:nth-child(1) {
+  width: 30%;
+  color: rgb(95, 0, 128);
+  background: #fff;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .button-box button:nth-child(2) {
+  width: 70%;
+  margin: 0 0 0 7px;
+  background: rgb(95, 0, 128);
+  color: #fff;
+}
+#wrap #header .header-row2 .container .right ul li .map-tooltip .button-box button img {
+  width: 20px;
+  margin-top: -3px;
+}
+#wrap #header .header-row2 .container .right ul .map-btn-li {
+  width: 35px;
+  margin: 10px 21px 0 0;
+}
+#wrap #header .header-row3-1 {
+  width: 100%;
+  height: 56px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
+}
+#wrap #header .header-row3-1 .container {
+  width: 100%;
+  max-width: 1068px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 9px;
+  display: flex;
+}
+#wrap #header .header-row3-1 .container .left {
+  width: 225px;
+  height: 100%;
+}
+#wrap #header .header-row3-1 .container .left span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#wrap #header .header-row3-1 .container .left span a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap #header .header-row3-1 .container .left span a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row3-1 .container .left span a img {
+  width: auto;
+}
+#wrap #header .header-row3-1 .container .left span a strong {
+  padding: 0 0 0 15px;
+}
+#wrap #header .header-row3-1 .container .center {
+  width: 600px;
+  height: 100%;
+}
+#wrap #header .header-row3-1 .container .center nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #header .header-row3-1 .container .center nav a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap #header .header-row3-1 .container .center nav a:hover {
+  color: rgb(95, 0, 128);
+  text-decoration: underline;
+}
+#wrap #header .header-row3-1 .container .center nav .active {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row3-1 .container .right {
+  width: 225px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#wrap #header .header-row3-1 .container .right a {
+  padding: 8px 17px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #777;
+  letter-spacing: -1px;
+}
+#wrap #header .header-row3-1 .container .right a span {
+  color: rgb(95, 0, 128);
+  margin: -4px 2px 0 0;
+  display: inline-block;
+  font-weight: 600;
+}
+#wrap #header.on .header-row3-1 {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+#wrap #header .header-row3-2 {
+  width: 100%;
+  height: 56px;
+  z-index: 1;
+  position: relative;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.08);
+}
+#wrap #header .header-row3-2 .container {
+  width: 100%;
+  max-width: 1068px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 9px;
+  display: flex;
+}
+#wrap #header .header-row3-2 .container .left {
+  width: 225px;
+  height: 100%;
+  margin-right: 30px;
+}
+#wrap #header .header-row3-2 .container .left span {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+#wrap #header .header-row3-2 .container .left span a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap #header .header-row3-2 .container .left span a:hover {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row3-2 .container .left span a img {
+  width: auto;
+}
+#wrap #header .header-row3-2 .container .left span a strong {
+  padding: 0 0 0 15px;
+}
+#wrap #header .header-row3-2 .container .center {
+  width: 1400px;
+  height: 100%;
+  margin-right: -190px;
+}
+#wrap #header .header-row3-2 .container .center nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#wrap #header .header-row3-2 .container .center nav a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+#wrap #header .header-row3-2 .container .center nav a:hover {
+  color: rgb(95, 0, 128);
+  text-decoration: underline;
+}
+#wrap #header .header-row3-2 .container .center nav .active {
+  color: rgb(95, 0, 128);
+}
+#wrap #header .header-row3-2 .container .center nav #search {
+  width: 250px;
+  height: 36px;
+  border: 0;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  outline: 0;
+  position: relative;
+  z-index: 1;
+}
+#wrap #header .header-row3-2 .container .center nav #search-image {
+  z-index: 2;
+  position: absolute;
+  top: 13px;
+  right: 660px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#wrap #header .header-row3-2 .container .right {
+  width: 325px;
+  height: 100%;
+}
+#wrap #header .header-row3-2 .container .right ul {
+  width: 325px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+#wrap #header .header-row3-2 .container .right ul li {
+  width: 100%;
+  height: 45px;
+}
+#wrap #header .header-row3-2 .container .right ul li:nth-child(2) {
+  width: 35px;
+  margin: 10px 21px 0 0;
+}
+#wrap #header .header-row3-2 .container .right ul li:nth-child(3) {
+  width: 35px;
+  margin: 10px -11px 0 0;
+}
+#wrap #header .header-row3-2 .container .right ul li a {
+  margin: 0 0 0 17px;
+  display: flex;
+}
+#wrap #header .header-row3-2 .container .right ul li a:first-child {
+  margin: 0 17px 0 0;
+}
+#wrap #header .header-row3-2 .container .right ul li a img {
+  width: auto;
+  display: flex;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip { /* 툴팁메뉴 */
+  position: absolute;
+  top: 62px;
+  left: 18%;
+  width: 270px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  background: #fff;
+  display: none;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip::before {
+  content: "";
+  background: url(../img/try_angle.svg) no-repeat 50% 0;
+  position: absolute;
+  top: -11px;
+  left: 51.5%;
+  width: 18px;
+  height: 11px;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .text-box {
+  width: 100%;
+  line-height: 170%;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .text-box span {
+  color: rgb(95, 0, 128);
+  display: inline-block;
+  margin-top: -2px;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .button-box {
+  padding: 10px 0 0 0;
+  width: 100%;
+  display: flex;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .button-box button {
+  width: 50%;
+  height: 38px;
+  border: 1px solid rgb(95, 0, 128);
+  cursor: pointer;
+  border-radius: 3px;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .button-box button:nth-child(1) {
+  width: 30%;
+  color: rgb(95, 0, 128);
+  background: #fff;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .button-box button:nth-child(2) {
+  width: 70%;
+  margin: 0 0 0 7px;
+  background: rgb(95, 0, 128);
+  color: #fff;
+}
+#wrap #header .header-row3-2 .container .right ul li .map-tooltip .button-box button img {
+  width: 20px;
+  margin-top: -3px;
+}
+#wrap #header .header-row3-2 .container .right ul .map-btn-li {
+  width: 35px;
+  margin: 10px 21px 0 0;
+}
+#wrap #header.on .header-row3-2 {
+  z-index: 3;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+}

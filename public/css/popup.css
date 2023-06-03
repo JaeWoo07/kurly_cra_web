@@ -1,0 +1,199 @@
+html {
+  overflow: hidden;
+}
+html.on {
+  overflow-y: auto;
+}
+
+#wrap {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  padding: 30px 30px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+#wrap .container {
+  width: 100%;
+}
+#wrap .container ul li {
+  padding: 5px 0;
+}
+#wrap .container ul li h1 {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -1px;
+}
+#wrap .container ul li h1 em {
+  color: #5f0080;
+}
+#wrap .container ul li h1 span {
+  color: #333;
+}
+#wrap .container ul li h2 {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 3px 0 25px 0;
+  color: #888;
+  letter-spacing: -1px;
+}
+#wrap .container ul li:nth-child(3) div {
+  width: 100%;
+  padding: 0 130px 0 0;
+  position: relative;
+}
+#wrap .container ul li:nth-child(3) div input[type=text]#sample2_postcode {
+  display: none;
+}
+#wrap .container ul li:nth-child(3) div input[type=text]#sample2_address {
+  width: 100%;
+  height: 44px;
+  color: #333;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0 15px;
+  outline-offset: -1px;
+  letter-spacing: -1px;
+}
+#wrap .container ul li:nth-child(3) div input[type=text]#sample2_address:focus {
+  outline: 1px solid #999;
+}
+#wrap .container ul li:nth-child(3) div input[type=button] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: 44px;
+  font-weight: 600;
+  color: #5f0080;
+  background: #fff url(../img/sub5/ico_search.svg) no-repeat 32px 51%;
+  background-size: 22px;
+  border: 1px solid #5f0080;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0 0 0 30px;
+  letter-spacing: -1px;
+}
+#wrap .container ul li:nth-child(4) div input[type=text]#sample2_detailAddress {
+  width: 100%;
+  height: 44px;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 0 15px;
+  outline-offset: -1px;
+}
+#wrap .container ul li:nth-child(4) div input[type=text]#sample2_detailAddress:focus {
+  outline: 1px solid #333;
+}
+#wrap .container ul li:nth-child(4) div input[type=text]#sample2_extraAddress {
+  display: none;
+}
+#wrap .container ul li p {
+  font-size: 12px;
+  color: rgb(153, 153, 153);
+  line-height: 130%;
+  padding: 3px 0 10px 0;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+#wrap .container ul li button {
+  width: 100%;
+  height: 44px;
+  background: #5f0080;
+  color: #fff;
+  font-weight: 600;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+#wrap .container ul li strong {
+  display: block;
+  font-size: 14px;
+  color: rgb(240, 63, 64);
+  padding: 25px 0 0 0;
+  font-weight: 600;
+}
+#wrap .container ul li strong img {
+  display: inline-block;
+  margin: -5px 3px 0 0;
+}
+#wrap .container ul li:nth-child(8) > div {
+  display: flex;
+  justify-content: space-between;
+}
+#wrap .container ul li:nth-child(8) > div span {
+  font-size: 14px;
+  color: #666;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin: -4px 0 13px 20px;
+  line-height: 150%;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn {
+  font-weight: 600;
+  color: #999;
+  font-size: 12px;
+  background: #fff;
+  width: 70px;
+  border: 0;
+  letter-spacing: -1px;
+  margin-top: -4px;
+  line-height: 170%;
+  display: block;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn img {
+  margin: -1px 0 0 5px;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn.on {
+  display: none;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn2 {
+  font-weight: 600;
+  color: #999;
+  font-size: 12px;
+  background: #fff;
+  width: 70px;
+  border: 0;
+  letter-spacing: -1px;
+  margin-top: -4px;
+  line-height: 170%;
+  display: none;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn2 img {
+  margin: -1px 0 0 5px;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn2.on {
+  display: block;
+}
+#wrap .container ul li:nth-child(8) > div .more-view-btn2.on img {
+  transform: rotate(180deg);
+}
+#wrap .container ul li:last-child .more-view {
+  display: none;
+}
+#wrap .container ul li:last-child .more-view ul li {
+  font-size: 12px;
+  color: #999;
+  line-height: 60%;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 0 0 0 10px;
+}
+
+#layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #fff;
+  overflow: hidden;
+}

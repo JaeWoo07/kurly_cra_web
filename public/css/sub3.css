@@ -1,0 +1,577 @@
+#sub {
+  width: 100%;
+}
+#sub #section1 {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+#sub #section1 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#sub #section1 .container .gap {
+  width: 100%;
+  padding: 0 9px;
+}
+#sub #section1 .container .gap .title {
+  width: 100%;
+}
+#sub #section1 .container .gap .title h2 {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+}
+#sub #section1 .container .gap .content {
+  width: 100%;
+}
+#sub #section1 .container .gap .content a {
+  width: 100%;
+  display: block;
+}
+#sub #section1 .container .gap .content a img {
+  width: 100%;
+}
+#sub #section2 {
+  width: 100%;
+  padding: 0 0 70px 0;
+}
+#sub #section2 .container {
+  width: 100%;
+  max-width: 1068px;
+  margin: 0 auto;
+}
+#sub #section2 .container .gap {
+  width: 100%;
+  padding: 0;
+}
+#sub #section2 .container .gap .title {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+#sub #section2 .container .gap .title h2 {
+  font-size: 28px;
+  text-align: center;
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+#sub #section2 .container .gap .content {
+  width: 100%;
+  display: flex;
+}
+#sub #section2 .container .gap .content .left {
+  width: 25%;
+  position: sticky;
+  height: 100vh;
+  top: 85px;
+  left: 0;
+}
+#sub #section2 .container .gap .content .left .left-header {
+  width: 100%;
+  padding: 0 28px 28px 9px;
+  display: flex;
+  justify-content: space-between;
+}
+#sub #section2 .container .gap .content .left .left-header span:first-child {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+#sub #section2 .container .gap .content .left .left-header a {
+  display: inline-block;
+  margin-top: -2px;
+}
+#sub #section2 .container .gap .content .left .left-header a span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ddd;
+}
+#sub #section2 .container .gap .content .left .left-content {
+  width: 100%;
+  height: 100%;
+  padding: 0 28px 55px 9px;
+  letter-spacing: -0.5px;
+  overflow-y: auto;
+}
+#sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar {
+  width: 0;
+}
+#sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar-track {
+  background: #f0f0f0;
+}
+#sub #section2 .container .gap .content .left .left-content::-webkit-scrollbar-thumb {
+  background: #ccc;
+}
+#sub #section2 .container .gap .content .left .left-content ul {
+  width: 100%;
+}
+#sub #section2 .container .gap .content .left .left-content ul li {
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+#sub #section2 .container .gap .content .left .left-content ul li:last-child {
+  border-bottom: 1px solid #eee;
+}
+#sub #section2 .container .gap .content .left .left-content ul li a {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  align-items: center;
+  justify-content: space-between;
+}
+#sub #section2 .container .gap .content .left .left-content ul li a span {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+}
+#sub #section2 .container .gap .content .left .left-content ul li a svg {
+  width: 18px;
+  height: 18px;
+  transform: rotate(0deg);
+  transition: all 0.3s;
+}
+#sub #section2 .container .gap .content .left .left-content ul li a svg.on {
+  transform: rotate(180deg);
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub .sub1-brand-span1 {
+  display: flex;
+  width: 170px;
+  margin: -3px 0 10px 0;
+  justify-content: space-between;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub .sub1-brand-span1 button {
+  display: flex;
+  font-weight: 600;
+  font-size: 13.5px;
+  color: #555;
+  letter-spacing: -0.7px;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub .sub1-brand-span1 button:first-child {
+  color: rgb(95, 0, 128);
+  margin-right: -40px;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub .sub1-brand-span1 i {
+  color: #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 9px 0 13px;
+  margin-top: 3.5px;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub ul li {
+  padding: 0 0 20px 0;
+  border: 0;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub ul li label {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub ul li label:hover {
+  color: rgb(95, 0, 128);
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub ul li label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px 0 0;
+  background: url(../img/sub3/check_off.svg) no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-top: -4px;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub ul li label input[type=checkbox]:checked {
+  background-image: url(../img/sub3/check_on.svg);
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub > span {
+  display: block;
+  padding: 0 0 15px 0;
+  width: 100%;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub > span button {
+  color: rgb(153, 153, 153);
+  font-size: 12px;
+  width: 100%;
+  background: none;
+  border: 0;
+  font-weight: 600;
+  cursor: pointer;
+}
+#sub #section2 .container .gap .content .left .left-content ul li .sub > span button svg {
+  transform: rotate(90deg);
+  margin-top: -3px;
+}
+#sub #section2 .container .gap .content .right {
+  width: 75%;
+  padding: 0 9px;
+}
+#sub #section2 .container .gap .content .right .right-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9px 20px 9px;
+}
+#sub #section2 .container .gap .content .right .right-header span {
+  font-size: 14px;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(1) {
+  color: #333;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) a {
+  color: #999;
+  font-weight: 500;
+  letter-spacing: -1px;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) a:nth-child(1) {
+  margin-top: 4px;
+  display: inline-block;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) a:nth-child(1) svg {
+  margin-top: -3px;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) a:hover {
+  color: #333;
+  font-weight: 600;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) a.on {
+  color: #333;
+  font-weight: 600;
+}
+#sub #section2 .container .gap .content .right .right-header span:nth-child(2) i {
+  color: #ddd;
+  font-size: 11px;
+  font-weight: 500;
+  margin: 0 8px 0 3px;
+}
+#sub #section2 .container .gap .content .right .right-content {
+  width: 100%;
+}
+#sub #section2 .container .gap .content .right .right-content ul {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+#sub #section2 .container .gap .content .right .right-content ul li {
+  width: 33.333%;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap {
+  margin: 0 9px 70px 9px;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .img-box {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .img-box > img {
+  width: 100%;
+  z-index: 1;
+  position: relative;
+  transition: all 0.3s;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .img-box > img:hover {
+  transform: scale(1.025);
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .img-box > span {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  z-index: 2;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .img-box > span img {
+  width: 100%;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box {
+  padding: 20px 0 0 0;
+  line-height: 140%;
+  letter-spacing: -0.5px;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h2:nth-child(1) {
+  color: #888;
+  font-weight: 500;
+  font-size: 13.5px;
+  margin: -5px 0 5px 0;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h3 {
+  font-size: 16px;
+  padding: 0 0 0 0;
+  font-weight: 600;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h3 strong {
+  color: rgb(250, 98, 47);
+  margin: 0 10px 0 0;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h3 em {
+  color: #333;
+  margin-top: -1.2px;
+  display: inline-block;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h4 {
+  font-size: 14px;
+  margin-bottom: -2px;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h4 s {
+  color: #aaa;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h4.sub3-kurlyonly {
+  font-size: 13px;
+  border: 1px solid rgb(244, 244, 244);
+  border-radius: 3px;
+  padding: 1px 4px 2px 4px;
+  background-color: rgb(244, 244, 244);
+  text-align: center;
+  color: rgb(95, 0, 128);
+  font-weight: 600;
+  width: 75px;
+  margin-top: 13px;
+  display: inline-block;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h5 {
+  font-size: 12px;
+  padding: 8px 0 0 0;
+  color: #aaa;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+#sub #section2 .container .gap .content .right .right-content ul li .col-gap a .txt-box h5 .sub3-review {
+  margin: -30px 0 -30px 0;
+  display: inline-block;
+}
+
+.sub3-modal1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.sub3-modal1 .container {
+  border-radius: 15px;
+  width: 780px;
+  height: 540px;
+  background: #fff;
+  padding: 30px;
+}
+.sub3-modal1 .container .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sub3-modal1 .container .content .title {
+  display: flex;
+  padding: 0 0 30px 0;
+  align-items: center;
+}
+.sub3-modal1 .container .content .title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 12px 0 0;
+  letter-spacing: -1px;
+}
+.sub3-modal1 .container .content ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+.sub3-modal1 .container .content ul li {
+  width: 33.333%;
+  padding: 10px 0;
+}
+.sub3-modal1 .container .content ul li label {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+.sub3-modal1 .container .content ul li label:hover {
+  color: rgb(95, 0, 128);
+}
+.sub3-modal1 .container .content ul li label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px 0 0;
+  background: url(../img/sub3/check_off.svg) no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-top: -4px;
+}
+.sub3-modal1 .container .content ul li label input[type=checkbox]:checked {
+  background-image: url(../img/sub3/check_on.svg);
+}
+.sub3-modal1 .container .content .button-box {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.sub3-modal1 .container .content .button-box button {
+  width: 140px;
+  height: 44px;
+  font-weight: 600;
+  background: #fff;
+  color: rgb(221, 221, 221);
+  border-radius: 3px;
+  border: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+  margin: 0 2px;
+}
+.sub3-modal1 .container .content .button-box button.ok-btn {
+  background: rgb(95, 0, 128);
+  color: #fff;
+  border: 1px solid rgb(95, 0, 128);
+}
+.sub3-modal1 .container .content .button-box button svg {
+  margin: -2px 4px 0 0;
+}
+.sub3-modal1 .container .content .modal1-close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}
+
+.sub3-modal2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.sub3-modal2 .container {
+  border-radius: 15px;
+  width: 780px;
+  height: 540px;
+  background: #fff;
+  padding: 30px;
+}
+.sub3-modal2 .container .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.sub3-modal2 .container .content .title {
+  display: flex;
+  padding: 0 0 30px 0;
+  align-items: center;
+}
+.sub3-modal2 .container .content .title h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 13px 0 0;
+  letter-spacing: -1px;
+}
+.sub3-modal2 .container .content .title a {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  color: #555;
+  margin: 0 10px;
+  display: inline-block;
+  margin-top: 5px;
+}
+.sub3-modal2 .container .content .title a.on {
+  color: rgb(95, 0, 128);
+}
+.sub3-modal2 .container .content .title i {
+  color: #eee;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 3px 1px 0 3px;
+}
+.sub3-modal2 .container .content ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+.sub3-modal2 .container .content ul li {
+  width: 33.333%;
+  padding: 10px 0;
+}
+.sub3-modal2 .container .content ul li label {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #333;
+}
+.sub3-modal2 .container .content ul li label:hover {
+  color: rgb(95, 0, 128);
+}
+.sub3-modal2 .container .content ul li label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  margin: 0 8px 0 0;
+  background: url(../img/sub3/check_off.svg) no-repeat 50% 50%;
+  background-size: 18px 18px;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-top: -4px;
+}
+.sub3-modal2 .container .content ul li label input[type=checkbox]:checked {
+  background-image: url(../img/sub3/check_on.svg);
+}
+.sub3-modal2 .container .content .button-box {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+.sub3-modal2 .container .content .button-box button {
+  width: 140px;
+  height: 44px;
+  font-weight: 600;
+  background: #fff;
+  color: rgb(221, 221, 221);
+  border-radius: 3px;
+  border: 1px solid rgb(221, 221, 221);
+  cursor: pointer;
+  margin: 0 2px;
+}
+.sub3-modal2 .container .content .button-box button.ok-btn {
+  background: rgb(95, 0, 128);
+  color: #fff;
+  border: 1px solid rgb(95, 0, 128);
+}
+.sub3-modal2 .container .content .button-box button svg {
+  margin: -2px 4px 0 0;
+}
+.sub3-modal2 .container .content .modal2-close-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 0;
+  cursor: pointer;
+}

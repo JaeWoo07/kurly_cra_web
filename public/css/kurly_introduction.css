@@ -1,0 +1,135 @@
+#sub {
+  width: 100%;
+}
+#sub #kurlyIntroduction {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+#sub #kurlyIntroduction .container .gap {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container .gap .title {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container .gap .title h2 {
+  text-align: center;
+  letter-spacing: -1.3px;
+  font-weight: 500;
+  font-size: 28px;
+}
+#sub #kurlyIntroduction .container .gap .content {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 {
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-image {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-image img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-text {
+  width: 100%;
+  padding: 0 0 50px 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-text .text-title {
+  width: 100%;
+  padding: 70px 0 60px 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-text .text-title h2 {
+  text-align: center;
+  letter-spacing: -1.3px;
+  font-weight: 600;
+  font-size: 34px;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-text .text-content {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#sub #kurlyIntroduction .container .gap .content .box1 .box1-text .text-content p {
+  font-size: 18px;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.8;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 {
+  width: 100%;
+  padding: 50px 0 0 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-image {
+  width: 100%;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-image img {
+  width: 100%;
+  height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-text {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-text .text-title {
+  width: 100%;
+  padding: 70px 0 60px 0;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-text .text-title h2 {
+  text-align: center;
+  letter-spacing: -1.3px;
+  font-weight: 600;
+  font-size: 34px;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-text .text-content {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#sub #kurlyIntroduction .container .gap .content .box2 .box2-text .text-content p {
+  font-size: 18px;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.8;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 {
+  padding-top: 50px;
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 .box3-1, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 .box3-1 img, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 img, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 img, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 img, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 img, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 img {
+  width: auto;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-6-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-6-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-6-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-6-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-6-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-1-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-2-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-3-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-4-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-5-text, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-6-text {
+  width: 100%;
+  padding: 0 0 0 45px;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-6-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-6-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-6-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-6-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-6-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-1-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-2-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-3-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-4-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-5-text h2, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-6-text h2 {
+  color: #5f0080;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #ddd;
+}
+#sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-1 .box3-6-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-2 .box3-6-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-3 .box3-6-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-4 .box3-6-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-5 .box3-6-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-1-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-2-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-3-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-4-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-5-text p, #sub #kurlyIntroduction .container .gap .content .box3 .box3-6 .box3-6-text p {
+  padding-top: 15px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 300;
+  line-height: 1.6;
+}
